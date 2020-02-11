@@ -1,0 +1,54 @@
+body {
+    background: url(./bg1.jpg);
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+header{
+    margin-top: 100px;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    color: #fe56ef;
+}
+.dws-menu *{
+    margin: 0;
+    padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+    list-style: none ;
+}
+.dws-menu > ul{
+    display: flex;
+    justify-content: center;
+}
+.dws-menu > ul li a{
+    padding: 15px 30px 15px 40px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.dws-menu > ul li:first-child{
+    border-left: 4px solid #fe56ef;
+}
+.dws-menu > ul li{
+    border-right: 4px solid #fe56ef;
+}
+.dws-menu li a:hover{
+    background: #fe56ef;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+
+
+.h_text{
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.disk{
+    padding-left: 100px;
+    margin-top: 0px;
+    font-size: 30px;
+}
